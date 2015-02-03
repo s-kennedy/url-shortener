@@ -1,0 +1,6 @@
+<h1>Most Visited Pages</h1>
+
+<ol><%@top_links.each do |link| %>
+		<li><strong><%=link.long_link%></strong> - visited <strong><%=link.visits%></strong> times</li>
+	<%end%>
+</ol>

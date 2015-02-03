@@ -1,0 +1,6 @@
+<h1>All links</h1>
+
+<ul><%@all_long_links.each do |link| %>
+		<li><strong><%=link.long_link%></strong> created on <strong><%=link.created_at%></strong> - visited <strong><%=link.visits%></strong> times</li>
+	<%end%>
+</ul>
